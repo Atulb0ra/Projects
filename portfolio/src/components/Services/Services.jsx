@@ -12,9 +12,7 @@ function Services() {
             <span className="gradient-text">Services</span>
           </h1>
           <h4 className="sub-title muted" data-aos = "fade-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati
-            est, harum quam sed, eum, itaque eos voluptatem sequi velit quidem quisquam. Ut
-            alias omnis et blanditiis repellat eligendi porro.
+          I create custom websites, intuitive UI/UX designs, and powerful web applications using Java and Spring Boot. My goal is to bring your vision to life with clean, efficient, and user-focused solutions.
           </h4>
         </div>
         <div className="services-container">

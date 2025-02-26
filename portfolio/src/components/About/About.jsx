@@ -10,10 +10,11 @@ function About() {
             <div className="gradient-text">About Me</div>
           </h1>
           <h4 className="sub-title muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere vitae, 
-            aperiam laboriosam consectetur neque quibusdam numquam deserunt 
-            reprehenderit possimus nisi. Molestias, asperiores! Quasi voluptatum
-             provident cupiditate quibusdam! Nihil, accusamus vel.
+          Hi there! I'm a passionate web developer with a strong foundation in coding, especially in Java. 
+          I love building dynamic, user-friendly websites and web applications. My expertise includes designing
+          responsive, efficient, and scalable websites using various web technologies, with a particular focus
+          on Java development. I enjoy solving complex problems and continually improving my coding skills to 
+          stay up to date with the latest industry trends.
           </h4>
         </div>
         <div className="group">

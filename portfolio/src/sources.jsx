@@ -50,23 +50,23 @@ export const services = [
   {
     name:"UI/UX Design",
     icon:<FaPaintBrush/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    description: `Custom websites tailored to your needs.
+    Responsive and mobile-friendly designs.
+    Full-stack development for dynamic web applications.`,
   },
   {
     name:"Web Development",
     icon:<FaLaptopCode/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    description:`User-centric designs to enhance user experience.
+    Wireframing, prototyping, and interactive designs.
+    Modern, intuitive, and engaging interfaces.`,
   },
   {
     name:"Java and Spring boot",
     icon:<FaJava/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    description:`obust back-end systems built with Java.
+    Scalable web applications using Spring Boot.
+    Efficient API development and integration.`,
   },
   
 ]

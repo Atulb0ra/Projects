@@ -11,13 +11,10 @@ function Hero() {
             Hi, I'm <span className="primary"> Atul Bora</span>
           </h3>
           <h1 className = "heading-1" data-aos ="fade-up">
-             A <span className="gradient-text">Fullstack</span> Web Developer
+             A <span className="gradient-text">Java Fullstack</span> Developer
           </h1>
           <p className = "muted" data-aos ="fade-up" data-aos-delay = "300">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, 
-            incidunt quis repellendus adipisci eius, libero corrupti rem ab
-             voluptatibus quas quam dicta aut cupiditate voluptas impedit 
-             dolorum autem voluptatum ipsam?
+          A passionate Web Developer with a focus on Java. I specialize in creating clean, efficient, and user-friendly web applications that solve real-world problems. With a deep understanding of Java and web technologies.
           </p>
           <div className="flex-center buttons-wrapper">
             <Link to = 'services' smooth = {true} className = 'btn primary button' data-aos = "fade-left" data-aos-delay = "1200" data-aos-offset = "50">Learn more</Link>

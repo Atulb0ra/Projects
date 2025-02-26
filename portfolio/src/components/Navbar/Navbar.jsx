@@ -10,7 +10,7 @@ import Social from '../../Commons/Social/Social'
 function Navbar() {
     const[openSidebar, setOpenSidebar] = useState(false); 
     return (
-        <navbar className = "navbar flex">
+        <nav className = "navbar flex">
             {openSidebar ? <div className = "overlay" onClick = {() => setOpenSidebar(!openSidebar)}/> : ""}
             <Logo />
             <div className = {`box flex-center tabs-group sidebar ${openSidebar ? 'visible' : ''}`}> 
@@ -43,7 +43,7 @@ function Navbar() {
                     <HiMenu />
                 </div>
             </div>
-        </navbar>
+        </nav>
     )
 }
 
