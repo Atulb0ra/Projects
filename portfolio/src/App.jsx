@@ -8,7 +8,17 @@ import Projects from "./components/Projects/Projects.jsx";
 import Platforms from "./components/Platforms/Platforms.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import { useEffect } from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration : 500,
+      easing : "ease-in-sine",
+    })
+  },[])
   return (
     <>
       <Navbar />

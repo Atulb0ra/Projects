@@ -9,13 +9,13 @@ function Footer() {
   return (
     <footer id="footer">
         <div className="wrapper">
-            <div className="column">
+            <div className="column" data-aos = "right">
                 <Logo />
                 <Social />
             </div>
             {
                 footer.map((item, index) => (
-                    <div className="column" key = {index}>
+                    <div className="column" data-aos = "fade-right" key = {index}>
                         <h3 className="muted title">{item.title}</h3>
                         {
                             item.routes.map((route, i) => (
@@ -28,8 +28,8 @@ function Footer() {
                 ))
             }
         </div>
-        <div className="copyright flex-center">
-            <h4>Copyright &copy; All rights reserved -| 2025</h4> 
+        <div className="copyright flex-center" >
+            <h4 >Copyright &copy; All rights reserved -| 2025</h4> 
             <p className="muted">Built with love by Atul Bora</p>
         </div>
     </footer>

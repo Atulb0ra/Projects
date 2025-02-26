@@ -7,7 +7,7 @@ function Skills() {
     <section id="skill">
       <div className="wrapper">
         <div className="section-header">
-          <h1 className="heading-1">
+          <h1 className="heading-1" data-aos = "fade-right">
             <span className="gradient-text">My skills</span>
           </h1>
         </div>

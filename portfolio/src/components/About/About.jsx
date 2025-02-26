@@ -6,7 +6,7 @@ function About() {
     <section id="about">
       <div className="wrapper">
         <div className="section-header">
-          <h1 className="heading-1">
+          <h1 className="heading-1" data-aos = "fade-left">
             <div className="gradient-text">About Me</div>
           </h1>
           <h4 className="sub-title muted">
@@ -19,7 +19,7 @@ function About() {
         <div className="group">
           {
             whyChooseMe.map((item, index) => (
-              <div className="flex-center group-item" key = {index}>
+              <div className="flex-center group-item" data-aos="fade-right" key = {index}>
                 <div className="flex-center icon-wrapper">
                   {item.icon}
                 </div>

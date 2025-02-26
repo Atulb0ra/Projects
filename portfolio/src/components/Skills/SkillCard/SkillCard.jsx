@@ -5,9 +5,9 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 
 function SkillCard({data, title}) {
   return (
-    <div className ="skill-card">
+    <div className ="skill-card" data-aos = "fade-right">
       <h3 className="title gradient-text">{title}</h3>
-      <div className="skill-content">
+      <div className="skill-content" >
         {
             data.map((item, index) => (
                 <div className="skill-details" key = {index}>

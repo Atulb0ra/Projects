@@ -8,7 +8,7 @@
     justify-content: center;
     margin : auto;
     margin-bottom: 40px;
-    user-select: nome;
+    user-select: none;
 }
 
 .project-navigation button{
@@ -24,7 +24,7 @@
     background: transparent;
 }
 .project-navigation .indicator{
-    position: relative;
+    position: absolute;
     top : 0;
     left : 0;
     z-index : 0;
@@ -32,7 +32,7 @@
     border-radius  :10px;
     transition: var(--transition);
     cursor : pointer;
-    background: var(--gradient-3);
+    background: var(--primary);
 }
 
 /* ResponsiveCode */

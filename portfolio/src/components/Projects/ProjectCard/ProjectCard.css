@@ -9,6 +9,19 @@
     flex-direction : column;
     justify-content: space-between;
 }
+
+.zoom{
+    animation: zoomIn 400ms;
+}
+
+@keyframes zoomIn {
+    0%{
+        scale : 0.7;
+    }
+    100%{
+        scale : 1;
+    }
+}
 .project-card .title{
     font-size : 16px;
     font-weight : 600;

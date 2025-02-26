@@ -1,7 +1,8 @@
 import React,{useState, useRef, useEffect} from 'react'
 import "./ProjectNavigation.css"
+import Aos from "aos"
 function ProjectNavigation({
-    tab,
+    tabs,
     onChange,
 }) {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -16,6 +17,7 @@ function ProjectNavigation({
         return sum;
     }
     useEffect(() => {
+        Aos.refreshHard();
         const prevEl = itemsEls.current.filter((_,index) => index<activeIndex);
         setOffset(
             sumArray(prevEl.map(item => item.offsetWidth))
@@ -25,12 +27,13 @@ function ProjectNavigation({
   return (
     <nav className="project-navigation">
         {
-            tab.map((tab, index) =>(
+            tabs.map((tab, index) =>(
                 <button
                 ref = {(el) => itemsEls.current[index] = el }
                 onClick ={()=>{
                     setActiveIndex(index);
                     onChange(tab);
+                    Aos.refreshHard();
                 }}
                 key = {index}
                 >
@@ -38,10 +41,11 @@ function ProjectNavigation({
                 </button>
             ))
         }
-        <span className="indicator"
+        <span 
+        className="indicator"
         style = {{
-            left : `${offset}`,
-            width : `${indicatorWidth}`,
+            left : `${offset}px`,
+            width : `${indicatorWidth}px`,
         }}
         />
     </nav>
