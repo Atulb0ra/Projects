@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Skills.css"
 import {skills} from "../../sources"
-import SkillCard from './skillCard/SkillCard'
+import SkillCard from './SkillCard/SkillCard'
 function Skills() {
   return (
     <section id="skill">
