@@ -171,11 +171,18 @@
     font-weight: 300;
     line-height: 1.8;
 }
-
- @media (max-width:600px){
+@media (max-width : 900px){
     .main-bottom input{
         flex : none;
         width: 150px;
+    }
+    .main .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .main .greet{
+        font-size: 48px;
+        font-weight : 420px;
     }
     .main-bottom img{
         width: 20px;
@@ -185,6 +192,77 @@
     }
     .search-box div{
         gap : 5px;
+    }
+} 
+@media (max-width:558px){
+    .main .card{
+        height : 150px
+    }
+    .main .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+    .icon{
+        width : 15px;
+    }
+    .main .card p{
+        font-size: 15px;
+    }
+    .main .greet{
+        font-size: 40px;
+        font-weight : 350px;
+    }
+    .main-bottom input{
+        font-size : 15px;
+        flex : none;
+        width: 120px;
+    }
+    .main-bottom img{
+        width: 15px;
+    }
+    .search-box{
+        height : 30px;
+        padding: 3px 7px;
+    }
+    .search-box div{
+        gap : 4px;
+    }
+} 
+@media (max-width:400px){
+    .main .card{
+        height : 120px
+    }
+    .icon{
+        width : 10px;
+    }
+    .main .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap : 5px;
+        padding: 5px;
+    }
+    .main .card p{
+        font-size: 12px;
+    }
+    .main .greet{
+        font-size: 30px;
+        font-weight : 320px;
+        padding : 5px;
+    }
+    .main-bottom input{
+        font-size: 12px;
+        flex : none;
+        width: 100px;
+    }
+    .main-bottom img{
+        width: 12px;
+    }
+    .search-box{
+        height : 25px;
+        padding: 2px 5px;
+    }
+    .search-box div{
+        gap : 4px;
     }
 } 
  

@@ -56,4 +56,20 @@
     padding-right : 10px;
     cursor: pointer;
 }
-   
+@media (max-width:900px){
+    .sidebar .icon{
+        width: 17px;
+    }
+    .sidebar .new-chat{
+        font-size : 12px
+    }
+} 
+@media (max-width:558px){
+    .sidebar .icon{
+        width: 14px;
+    }
+    .sidebar .new-chat{
+        font-size : 10px
+    }
+} 
+ 
